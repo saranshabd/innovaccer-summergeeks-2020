@@ -21,6 +21,7 @@ def check_in(request):
             host['name'] = str(request.data['host']['name'])
             host['email'] = str(request.data['host']['email'])
             host['phone_number'] = str(request.data['host']['phone_number'])
+            host['address'] = str(request.data['host']['address'])
 
             # extract visitor details from request body
             visitor['name'] = str(request.data['visitor']['name'])

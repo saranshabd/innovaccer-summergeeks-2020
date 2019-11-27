@@ -13,6 +13,7 @@ class Record(models.Model):
     host_name = models.TextField()
     host_email = models.TextField()
     host_phone_number = models.TextField()
+    host_address = models.TextField(blank=True)
 
     # visitor information
     visitor_name = models.TextField()

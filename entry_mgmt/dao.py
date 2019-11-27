@@ -21,10 +21,11 @@ class RecordDao:
             host_name=host['name'],
             host_email=host['email'],
             host_phone_number=host['phone_number'],
+            host_address=host['address'],
             visitor_name=visitor['name'],
             visitor_email=visitor['email'],
             visitor_phone_number=visitor['phone_number'],
-            check_in=currtime.strftime('%d/%m/%Y %H:%M')
+            check_in=currtime
         )
 
         try:

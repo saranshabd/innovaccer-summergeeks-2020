@@ -50,7 +50,7 @@ class EntryMgmtUtils:
                    '\nCheck-out Time=%s,\nHost Name=%s,\nAddress Visited=%s\n') % (
             record['visitor_name'], record['visitor_phone_number'],
             str(record['check_in']), str(currtime.strftime('%d/%m/%Y %H:%M')),
-            record['host_name'], 'Permanent Address')
+            record['host_name'], record['host_address'])
 
         # send email
         send_mail(
