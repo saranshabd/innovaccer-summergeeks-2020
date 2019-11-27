@@ -7,7 +7,8 @@ import logging
 
 
 # configure AWS client
-sns_client = boto3.Session(profile_name='sns').client('sns')
+# sns_client = boto3.Session(profile_name='sns').client('sns')
+sns_client = boto3.client('sns', region_name='ap-southeast-1')
 
 logger = logging.getLogger(__name__)
 
