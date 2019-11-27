@@ -1,0 +1,11 @@
+# visual studio
+.vscode/
+
+# python
+env/
+**/__pycache__
+**/migrations
+
+# project
+config.json
+app.log
