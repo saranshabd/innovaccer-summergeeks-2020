@@ -1,5 +1,5 @@
 # innovaccer-summergeeks-2020
-REST API of SDE Intern Assignment Project for Innovaccer SummerGeeks 2020
+REST API for Assignment project for the role of SDE Intern 2020 at Innovaccer.
 
 <br>
 
